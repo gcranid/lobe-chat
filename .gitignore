@@ -7,7 +7,7 @@
 .vscode
 .history
 .temp
-.env.local
+#.env.local
 venv
 temp
 tmp
@@ -44,7 +44,7 @@ test-output
 # add other ignore file below
 
 # local env files
-.env*.local
+#.env*.local
 
 # vercel
 .vercel
@@ -53,7 +53,7 @@ test-output
 *.tsbuildinfo
 next-env.d.ts
 .next
-.env
+#.env
 public/*.js
 public/sitemap.xml
 public/sitemap-index.xml
