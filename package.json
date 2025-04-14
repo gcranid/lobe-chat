@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "build": "NODE_OPTIONS=--max-old-space-size=8192 bun run build",
-    "postbuild": "npm run build-sitemap && npm run build-migrate-db",
+    "postbuild": "npm run build-sitemap",
     "build-migrate-db": "bun run db:migrate",
     "build-sitemap": "tsx ./scripts/buildSitemapIndex/index.ts",
     "build:analyze": "NODE_OPTIONS=--max-old-space-size=6144 ANALYZE=true next build",
